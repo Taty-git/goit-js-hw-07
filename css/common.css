@@ -14,7 +14,19 @@ body {
 }
 .gallery {
   list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 48px;
+    
 }
 .img {
-  max-width: 800px;
+  display: block;
+  width: 360px;
+  height: 300px;
+  object-fit: cover;
+  border: none;
+  margin: 24px;
+  
+  
 }
