@@ -31,4 +31,4 @@ const galleryItems = images.map(image => {
             <img class="img" src="${image.url}" alt="${image.alt}">
           </li>`;  
 });
-gallery.innerHTML = galleryItems;
+gallery.innerHTML = galleryItems.join('');
